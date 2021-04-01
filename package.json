@@ -1,9 +1,12 @@
 {
-  "name": "react-app-toolchain",
-  "version": "1.0.0",
+  "name": "@shawnsandy/react-parcel-starter",
+  "version": "0.0.1",
   "main": "index.js",
-  "repository": "https://github.com/adebiyial/react-app-toolchain.git",
-  "author": "adebiyi adedotun",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawn-sandy/react-parcel.git"
+  },
+  "author": "Shawn Sandy",
   "license": "MIT",
   "scripts": {
     "start": "parcel public/index.html --open --no-cache",
@@ -29,5 +32,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/shawn-sandy/react-parcel/issues"
+  },
+  "homepage": "https://github.com/shawn-sandy/react-parcel#readme",
+  "description": "A react parce starter"
 }
