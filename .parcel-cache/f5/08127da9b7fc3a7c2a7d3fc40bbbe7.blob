@@ -1,0 +1,21 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+require('./app.css');
+require('./app.scss');
+var _jsxFileName = "C:\\Users\\shawn\\devbox\\react-app-toolchain-master\\src\\Hello.js";
+function App() {
+  return (
+    /*#__PURE__*/React.createElement("h1", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 5,
+        columnNumber: 10
+      }
+    }, "Hello World!")
+  );
+}
+_c = App;
+exports.default = App;
+var _c;
+$RefreshReg$(_c, "App");
