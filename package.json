@@ -6,7 +6,8 @@
   "author": "adebiyi adedotun",
   "license": "MIT",
   "scripts": {
-    "start": "parcel public/index.html --open"
+    "start": "parcel public/index.html --open --no-cache",
+    "watch": "parcel --watch public/index.html --open --no-cache"
   },
   "dependencies": {
     "react": "^17.0.2",
