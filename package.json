@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel public/index.html --open --no-cache",
-    "watch": "parcel --watch public/index.html --open --no-cache"
+    "watch": "parcel watch public/index.html --open --no-cache",
+    "build": "NODE_ENV=development parcel build public/index.html --open --no-cache"
   },
   "dependencies": {
     "react": "^17.0.2",
