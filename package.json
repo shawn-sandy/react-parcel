@@ -1,41 +1,32 @@
 {
-  "name": "@shawnsandy/react-parcel-starter",
-  "version": "0.0.1",
+  "name": "react-parcel",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shawn-sandy/react-parcel.git"
-  },
-  "author": "Shawn Sandy",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "scripts": {
-    "start": "parcel public/index.html --open --no-cache",
-    "watch": "parcel watch public/index.html --open --no-cache",
-    "build": "NODE_ENV=development parcel build public/index.html --open --no-cache"
+    "clean": "rm dist/bundle.js",
+    "start": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html",
+    "test": "testcafe chrome tests/"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.0-beta.2",
-    "parcel": "^2.0.0-beta.2"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "bugs": {
-    "url": "https://github.com/shawn-sandy/react-parcel/issues"
-  },
-  "homepage": "https://github.com/shawn-sandy/react-parcel#readme",
-  "description": "A react parce starter"
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "babel-jest": "^28.1.1",
+    "jest": "^28.1.1",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.7.0",
+    "sass": "^1.52.3",
+    "testcafe": "^1.19.0"
+  }
 }
